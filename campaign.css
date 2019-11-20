@@ -1,0 +1,104 @@
+body {
+  background-color: #D6EAF8;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 668px 668px 668px;
+  background-color: #2196F3;
+  padding: 5px;
+}
+.grid-container1 {
+  display: grid;
+  grid-template-columns: 663px 663px 663px;
+  grid-template-rows: 113px 113px 113px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  height: 300px;
+  width: 500px;
+}
+h1 {
+  color: #800080;
+  text-align: center;
+  font-size: 40;
+  font-family: "Arial Italic", Times, serif;
+  border: 5px solid #2196F3;
+}
+h2 {
+  color: #0066CC;
+  text-align: center;
+  font-size: 75px;
+  font-family: "Arial Italic", Times, serif;
+  border: 5px solid #2196F3;
+}
+.grid-item1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  height: 300px;
+  width: 500px;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-end: 1;
+}
+.grid-item2 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  height: 300px;
+  width: 500px;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  grid-column-end: 2;
+  grid-row-end 2;
+}
+.grid-item3 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  height: 300px;
+  width: 500px;
+  grid-column-start: 3;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  grid-colum-end: 3;
+}
+.grid-item4 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  height: 300px;
+  width: 500px;
+  grid-column-start: 2;
+  grid-row-start: 4;
+  grid-column-end: 2;
+  grid-row-end 4;
+}
+.grid-item5 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  height: 300px;
+  width: 500px;
+  grid-column-start: 1;
+  grid-row-start: 5;
+  grid-column-end: 1;
+  grid-row-end 5;
+}
